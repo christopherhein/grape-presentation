@@ -1,4 +1,8 @@
 GrapePresentation::Application.routes.draw do
+  resources :orders
+  
+  mount API => "/"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

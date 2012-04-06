@@ -22,6 +22,8 @@ end
 
 gem 'jquery-rails'
 
+gem "grape", git: "git://github.com/intridea/grape.git", branch: "frontier"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
